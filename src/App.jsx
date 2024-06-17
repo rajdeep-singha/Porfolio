@@ -1,15 +1,13 @@
+import Test from "./Test";
+import "./App.scss";
+import Navbar from "./components/navbar/Navbar";
 
-import Navbar from "./components/navbar/Navbar.jsx";
-import './App.scss';
 
 const App =() =>{
-
-
-  return 
-    
+  return (
       <div>
         <section>
-         <Navbar/>
+         <Navbar />
         </section>
         <section>Parallax</section>
         <section>Services</section>
@@ -18,9 +16,16 @@ const App =() =>{
         <section>Portfolio2</section>
         <section>Portfolio3</section>
         <section>Contact</section>
+        <Test/>
       </div>
-    
-  
+  );
 };
 
 export default App;
+
+
+
+
+
+
+

@@ -1,14 +1,14 @@
 import Test from "./Test";
 import "./App.scss";
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero"
+import Hero from "./components/hero/Hero";
 
-const App =() =>{
+const App = () => {
   return (
-      <div>
+    <>
+      <div >
         <section id="Homepage">
-         <Navbar />
-         <Hero/>
+          <Hero />
         </section>
         <section id="Services">Parallax</section>
         <section>Services</section>
@@ -17,16 +17,10 @@ const App =() =>{
         <section>Portfolio2</section>
         <section>Portfolio3</section>
         <section id="Contact">Contact</section>
-        <Test/>
+        <Test />
       </div>
+    </>
   );
 };
 
 export default App;
-
-
-
-
-
-
-

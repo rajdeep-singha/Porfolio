@@ -1,53 +1,52 @@
-.hero{
-    overflow: hidden;
-    height: calc(100vh - 100px);
-    background: linear-gradient(100deg,#0c0c1d,#111132);
-    position: relative;
-    
-.wrapper{
-  max-width: 1366px;  
-  height: 100%;
-  margin: auto;
+.hero {
+  overflow: hidden;
+  height: calc(100vh);
+  background: linear-gradient(100deg, #0c0c1d, #111132);
+  position: relative;
 
-  .textContainer{
-    width: 50%;
+  .wrapper {
+    max-width: 1366px;
     height: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:40px;
+    margin: auto;
 
-    h2{
+    .textContainer {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      h2 {
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
-    }
-    h1{
+      }
+      h1 {
         font-size: 88px;
-    }
+      }
 
-button{
-    padding: 20px;
-    border:1px solid white;
-    border-radius: 10px;
-    background-color: transparent;
-    color: white;
-    margin-right: 20px;
-    cursor: pointer;
-}
+      button {
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        margin-right: 20px;
+        cursor: pointer;
+      }
 
-
-    img{
-      width: 50px;  
+      img {
+        width: 50px;
+      }
     }
   }
-}
 
-.imageContainer{
+  .imageContainer {
     height: 100%;
     position: absolute;
-    top:0;
+
+    top: 0;
     right: 0;
-    
-}
+  }
 }

@@ -1,25 +1,31 @@
-.navbar{
-    height: 100px;
-    
-    .wrapper{
-        max-width: 1366px;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #0c0c1d;
-        height: 100%;
-    span{
-        font-weight: bold;
+.navbar {
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 
+  .wrapper {
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c0c1d;
+    height: 100%;
+    span {
+      font-weight: bold;
+      font-size: xx-large;
     }
-    .social{
-        display: flex;
-        gap:20px;
+    .social {
+      display: flex;
+      gap: 20px;
+      scale: 200%;
     }
-    img{
-        width:10px;
-        height:10px;
+    img {
+      width: 10px;
+      height: 10px;
     }
-    }
+  }
 }

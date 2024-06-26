@@ -16,6 +16,7 @@
       flex-direction: column;
       justify-content: center;
       gap: 40px;
+      
 
       h2 {
         font-size: 30px;
@@ -23,7 +24,7 @@
         letter-spacing: 10px;
       }
       h1 {
-        font-size: 88px;
+        font-size: 70px;
       }
 
       button {
@@ -34,11 +35,13 @@
         color: white;
         margin-right: 20px;
         cursor: pointer;
+        font-weight: 300;
       }
 
       img {
         width: 50px;
       }
+     
     }
   }
 
@@ -48,5 +51,14 @@
 
     top: 0;
     right: 0;
+  }
+  .slidingtextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
   }
 }

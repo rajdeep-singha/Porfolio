@@ -128,9 +128,30 @@ const Contact = () => {
 
   const isInView = useInView(ref, { margin: "-100px" });
 
+
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_4qbxo04",
+  //       "template_yuezfv8",
+  //       formRef.current,
+  //       "GCkIIaiOpHXDH1ZlV"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         setSuccess(true)
+  //       },
+  //       (error) => {
+  //         setError(true);
+  //       }
+  //     );
+  // };
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm(
         "service_4qbxo04",
@@ -140,13 +161,16 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setSuccess(true)
+          console.log("Email sent successfully:", result.text);
+          setSuccess(true);
         },
         (error) => {
+          console.error("Error sending email:", error);
           setError(true);
         }
       );
   };
+  
 
   return (
     <motion.div

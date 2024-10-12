@@ -55,7 +55,7 @@ const variants={
         <motion.div className="listContainer" 
          variants={variants}>
             <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
-                <h2>Branding</h2>
+                <h2>Foddie</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam id iusto rerum, perferendis impedit corrupti assumenda rem ratione ipsam sunt nisi! Iure voluptatem hic voluptate! Porro necessitatibus et commodi officiis.</p>
             </motion.div>
             <button>GO</button>

@@ -1,6 +1,7 @@
 import "./Navbar.scss"
 import {motion} from "framer-motion"
 import Sidebar from "../sidebar/Sidebar";
+// import { Link } from 'react-router-dom';
 
  const Navbar = () => {
   return (
@@ -14,9 +15,10 @@ import Sidebar from "../sidebar/Sidebar";
         transition={{duration:0.5}}
         >Rajdeep</motion.span>
       <div className="social">
-        <a href="#"><img src="/facebook.png" alt=""/></a>
-        <a href="#"><img src="/instagram.png" alt=""/></a>
-        <a href="#"><img src="/youtube.png" alt=""/></a>
+     
+        <a href="https://www.facebook.com/profile.php?id=61560452826487" target="_blank"><img src="/facebook.png" alt=""/></a>
+        <a href="https://www.instagram.com/rajdeepsingha4" target="_blank"><img src="/instagram.png" alt=""/></a>
+        <a href="https://www.youtube.com/@rajdeepsingha1611"  target="_blank"><img src="/youtube.png" alt=""/></a>
         {/* <a href="#"><img src="/dribble.png" alt=""/></a> */}
       </div>
     </div>

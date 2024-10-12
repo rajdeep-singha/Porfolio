@@ -25,7 +25,7 @@ const ref = useRef()
             ? "linear-gradient(180deg, #111132, #0c0c1d)"
             : "linear-gradient(180deg, #111132, #505064)",
       }}>
-        <motion.h1 style={{y:yText}}>{type==="services" ? "What We Do?" : "What We Did"}</motion.h1>
+        <motion.h1 style={{y:yText}}>{type==="services" ? "MY PROJECTS 📩" : "Work experience 📩"}</motion.h1>
         <motion.div className="mountains"></motion.div>
         <motion.div  className="planets" style={{y:yBg ,
             backgroundImage: `url(${type==="services"? "/planet.png":"/sun.png" })`
